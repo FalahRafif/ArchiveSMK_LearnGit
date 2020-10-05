@@ -22,6 +22,18 @@ class Tutorial {
         - Bisa membuat blog dengan SSG.
         */
     }
+    public function Configuration_Git()
+    {
+        /*
+        Open a git bash in you computer and type : 
+        Config :
+        git config --global user.name "My Name"
+        git config --global user.email myEmail@exampel.com
+
+        Check Config :
+        git config --list
+        */
+    }
 }
 
 
