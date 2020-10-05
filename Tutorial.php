@@ -34,6 +34,16 @@ class Tutorial {
         git config --list
         */
     }
+    public function First_Repository_Git()
+    {
+        /*
+        Initial Repo :
+        cd Desktop/git_exercise/
+        git init 
+
+        TL : before do a initial check if you in the right folder 
+        */
+    }
 }
 
 
