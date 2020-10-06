@@ -2,6 +2,13 @@
 
 class Tutorial {
     
+    public function index()
+    {
+        /*
+        remind git doang
+        */
+    }
+    
     public function About_Git()
     {
         /*
