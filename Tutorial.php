@@ -94,11 +94,19 @@ class Tutorial {
     public function git_diff()
     {
         /*
-        mengcompare commit
-        - git diff (hash code) 
-        - git diff (file) 
-        - git diff (hash code) (hash code)  (antar commit)
-        - git diff (branch) (branch) (antar branch)
+            mengcompare commit
+            - git diff (hash code) 
+            - git diff (file) 
+            - git diff (hash code) (hash code)  (antar commit)
+            - git diff (branch) (branch) (antar branch)
+        */
+    }
+    public function git_brach()
+    {
+        /*
+            membuat cabang / branch untuk mencegah conflict
+            - git branch (melihat branch (*branch menandakan sedang aktif di branch tsb))
+            - git branch (nama branch) (menambah branch)
         */
     }
 }
