@@ -91,6 +91,16 @@ class Tutorial {
             - git log --author='author' (melihat log dengan author tertentu)
         */
     }
+    public function git_diff()
+    {
+        /*
+        mengcompare commit
+        - git diff (hash code) 
+        - git diff (file) 
+        - git diff (hash code) (hash code)  (antar commit)
+        - git diff (branch) (branch) (antar branch)
+        */
+    }
 }
 
 
