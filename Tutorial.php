@@ -108,12 +108,8 @@ class Tutorial {
             - git checkout (hash code) (kembali ke commit sebelumnya)
             - git reset (file) (mengembalikan status staged ke modified)
             - git checkout HEAD~3 (file) (kembali ke commit sebelumnya)
-            - git revent (hash code) (mengembalikan seluruh commit ke seblumnya)
+            - git revert (hash code) (mengembalikan seluruh commit ke seblumnya)
         */
-    }
-    public function reventmeplease()
-    {
-        // Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum tempora nostrum nemo soluta error maxime animi debitis amet doloremque sint? Consectetur accusantium voluptatum odit nihil tenetur magnam ea ex voluptas? Quis blanditiis facilis rem eum deserunt nisi, deleniti totam sunt quidem asperiores quae eveniet iusto tenetur quod impedit, quam provident vitae reprehenderit vel. Nulla minus non voluptates aliquam iusto expedita, ipsa dolorem iure sapiente officia earum illo laboriosam voluptas in odio labore, culpa ab facilis magnam. Corrupti, provident maxime consectetur ex facere vel voluptatibus sint veniam ducimus sunt suscipit magni delectus? Ut, esse consequatur repudiandae veritatis maxime beatae assumenda possimus?
     }
 }
 
