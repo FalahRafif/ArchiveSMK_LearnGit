@@ -76,6 +76,8 @@ class Tutorial {
             lalu cek kembali di "git status" untuk cek jika semua file sudah staged 
             lalu lakuka commit
             - git commit -m "my first commit"
+            
+            sekarang semua file tsb sudah di simpan dalam vcs
         */
     }
 }
