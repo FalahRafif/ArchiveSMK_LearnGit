@@ -101,12 +101,22 @@ class Tutorial {
             - git diff (branch) (branch) (antar branch)
         */
     }
-    public function git_brach()
+    public function git_branch()
     {
         /*
             membuat cabang / branch untuk mencegah conflict
             - git branch (melihat branch (*branch menandakan sedang aktif di branch tsb))
             - git branch (nama branch) (menambah branch)
+        */
+    }
+    public function git_merge()
+    {
+        /* 
+            untuk menggabungkan branch pertama melakukan checkout ke master
+            lalu merge
+            - git merge (branch)
+
+            berhati hatilah saat melakukan merge terkadang aka terjadi merge conflict
         */
     }
 }
