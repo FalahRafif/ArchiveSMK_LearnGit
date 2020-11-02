@@ -94,11 +94,11 @@ class Tutorial {
     public function git_diff()
     {
         /*
-        mengcompare commit
-        - git diff (hash code) 
-        - git diff (file) 
-        - git diff (hash code) (hash code)  (antar commit)
-        - git diff (branch) (branch) (antar branch)
+            mengcompare commit
+            - git diff (hash code) 
+            - git diff (file) 
+            - git diff (hash code) (hash code)  (antar commit)
+            - git diff (branch) (branch) (antar branch)
         */
     }
     public function membatalkan_commit()
@@ -109,6 +109,27 @@ class Tutorial {
             - git reset (file) (mengembalikan status staged ke modified)
             - git checkout HEAD~3 (file) (kembali ke commit sebelumnya)
             - git revert (hash code) (mengembalikan seluruh commit ke seblumnya)
+        */
+    }
+    public function git_branch()
+    {
+        /*
+            
+
+            membuat cabang / branch untuk mencegah conflict
+            - git branch (melihat branch (*branch menandakan sedang aktif di branch tsb))
+            - git branch (nama branch) (menambah branch)
+        */
+    }
+    public function git_merge()
+    {
+        /* 
+            untuk menggabungkan branch pertama melakukan checkout ke master
+            lalu merge
+            - git merge (branch)
+
+            berhati hatilah saat melakukan merge terkadang aka terjadi merge conflict
+
         */
     }
 }
