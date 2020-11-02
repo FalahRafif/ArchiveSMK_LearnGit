@@ -76,7 +76,7 @@ class Tutorial {
             lalu cek kembali di "git status" untuk cek jika semua file sudah staged 
             lalu lakuka commit
             - git commit -m "my first commit"
-            
+            - git commit -a -m "my second commit" (jika menabahkan "-a" kita tidak perlu melakkan "git add")
             sekarang semua file tsb sudah di simpan dalam vcs
         */
     }
