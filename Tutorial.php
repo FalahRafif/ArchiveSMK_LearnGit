@@ -166,6 +166,46 @@ class Tutorial {
             Perintah git revert mengembalikan file dengan tidak menghapus sejarah commit.
         */
     }
+    public function git_remote()
+    {
+        /*
+            bekerja menggunakan git remote 
+            remote yang bisa kita pakai
+            - github
+            - gitbucket
+            - dll
+
+            langkah-langkah
+            1. membuat repository di github
+            2. menambahkan remote 
+                - git remote  add (remote(bisa "github" dll)) (url remote(contoh : https://github.com/FalahRafif/test-git)) 
+                ada dua pilihan 
+                bisa menggunakan url seperti di atas
+                atau bisa juga menggunakan ssh
+                - git@github.com:FalahRafif/belajar-git.git
+                perbedaan menggunakan url/http dan ssh
+                - url akan meminta password setiap push
+                - sebaliknya ssh dari url tetapi akan meinta konfigurasi ssh key
+            3. setelah itu ketik "git remote -v" untuk melihat remote apa saja yang sudah di tambahkan
+            4. mengubah nama remote (optional)
+                - git remote (nama remote) (nama remote)
+                - git remote remove (nama remote) (untuk menghapus remote)
+            5.melakukan push (mengupload repo kita ke remote)
+                - git push (remote) (tujuan branch)
+            6. melakukan pull dan fetch (mengambil repo kita dari remote)
+                - git fetch  (remote) (branch)
+                - git pull  (remote) (branch)
+                perbedaan
+                Apa perbedaanya?
+                - Perintah git fetch hanya akan mengambil revisi (commit) saja dan tidak langsung melakukan penggabungan (merge) terhadap repository lokal.
+                - Sedangkan git pull akan mengambil revisi (commit) dan langsung melakukan penggabungan (merge) terhadap repository lokal.
+                - Terus kita harus pakai yang mana?
+                - Tergantung dari situasi dan kondisi.
+                - Bila kita sudah membuat perubahan di repository lokal, maka sebaiknya menggunakan git fetch agar perubahan yang kita lakukan tidak hilang.
+                - Namun, bila kita tidak pernah melakukan perubahan apapun dan ingin mengambil versi terakhir dari repository remote, maka gunakanlah git pull.
+
+        */
+    }
 }
 
 
