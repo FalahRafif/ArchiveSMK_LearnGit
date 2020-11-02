@@ -133,6 +133,15 @@ class Tutorial {
 
         */
     }
+    public function git_checkout()
+    {
+        /*
+            git checkout digunakajn untuk kembali ke commit sebelumnya
+            bersifat temporer / sementara 
+            kita juga dapat membuat cabang dari commit sebelumnya 
+            - git -b (nama branch) (hash code)
+        */
+    }
 }
 
 
