@@ -142,6 +142,30 @@ class Tutorial {
             - git -b (nama branch) (hash code)
         */
     }
+    public function git_reset()
+    {
+        /*
+            mengreset atau men delete commit dari sesudah commit yang kita berada
+
+            Perintah ini memiliki tiga argumen atau opsi utama, yaitu --soft, --mixed, dan --hard.
+            --soft akan mengebalikan dengan kondisi file dalam keadaan staged
+            --mixed akan mengebalikan dengan kondisi file dalam keadaan modified
+            --hard akan mengebalikan dengan kondisi file dalam keadaan commited
+
+            - git reset --soft (hash code)
+        */
+    }
+    public function git_revert()
+    {
+        /*
+            berbeda dengan reset ,revert mengambil file di commit sebelumnya dan menggabungkan nya dengan commit terakhir 
+            -git revert (hash code)
+            kesimpulan
+            Perintah git checkout mengembalikan file dalam kondisi sebelumnya, tapi bersifat sementara.
+            Perintah git reset, akan mengembalikan file ke kondisi sebelumnya, kemudian menghapus catatan sejarah commit beikutnya.
+            Perintah git revert mengembalikan file dengan tidak menghapus sejarah commit.
+        */
+    }
 }
 
 
