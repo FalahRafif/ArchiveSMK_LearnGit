@@ -101,16 +101,6 @@ class Tutorial {
         - git diff (branch) (branch) (antar branch)
         */
     }
-    public function membatalkan_commit()
-    {
-        /*
-            untuk membatalkan commit 
-            - git checkout (hash code) (kembali ke commit sebelumnya)
-            - git reset (file) (mengembalikan status staged ke modified)
-            - git checkout HEAD~3 (file) (kembali ke commit sebelumnya)
-            - git revent (hash code) (mengembalikan seluruh commit ke seblumnya)
-        */
-    }
 }
 
 
