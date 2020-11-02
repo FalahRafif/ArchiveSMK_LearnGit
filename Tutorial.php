@@ -178,7 +178,7 @@ class Tutorial {
             langkah-langkah
             1. membuat repository di github
             2. menambahkan remote 
-                - git remote  add (remote(bisa "github" dll)) (url remote(contoh : https://github.com/FalahRafif/test-git)) 
+                - git remote  add (remote(bisa "github" dll)) (url remote(contoh : https://github.com/FalahRafif/test-git.git)) 
                 ada dua pilihan 
                 bisa menggunakan url seperti di atas
                 atau bisa juga menggunakan ssh
