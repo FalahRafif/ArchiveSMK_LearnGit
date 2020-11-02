@@ -80,6 +80,17 @@ class Tutorial {
             sekarang semua file tsb sudah di simpan dalam vcs
         */
     }
+    public function git_log()
+    {
+        /* 
+            melihat log/riwayat commit 
+            - git log
+            - git log --oneline (melihat log dengan lebih simple)
+            - git log (hash code) (melihat log di commit tertentu)
+            - git log (file) (melihat log dalam file tsb)
+            - git log --author='author' (melihat log dengan author tertentu)
+        */
+    }
 }
 
 
