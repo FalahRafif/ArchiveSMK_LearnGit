@@ -119,6 +119,7 @@ class Tutorial {
             membuat cabang / branch untuk mencegah conflict
             - git branch (melihat branch (*branch menandakan sedang aktif di branch tsb))
             - git branch (nama branch) (menambah branch)
+            - git -d (nama branch) (menghapus branch)
         */
     }
     public function git_merge()
