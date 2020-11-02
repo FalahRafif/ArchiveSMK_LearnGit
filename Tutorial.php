@@ -46,9 +46,36 @@ class Tutorial {
         /*
         Initial Repo :
         cd Desktop/git_exercise/
-        git init 
+        git init (using "." for init in the folder right now)(using "/folder/folder" for init in other folder)
 
         TL : before do a initial check if you in the right folder 
+        */
+    }
+    public function gitignore()
+    {
+        /*
+            merupakan sebuah file yang berisi daftar nama-nama file dan direktori yang akan diabaikan oleh Git.
+            Perubahan apapun yang kita lakukan terhadap file dan direktori yang sudah masuk ke dalam daftar 
+            .gitignore tidak akan dicatat oleh Git.
+        */
+    }
+    public function commit()
+    {
+        /*
+            gunakan "git status" untuk mengcek status file
+            ada 3 status 
+            - modified : file sudah di edit tapi belum di tandai dan belum di simpan di vcm
+            - staged : file sudah di tandai dan belum di simpan di vcs
+            - commited : file sudah di simpan di vcs
+
+            untuk menandai (staged) file 
+            - git add (nama file)
+            - git add (nama file) (nama file)
+            - git add . (semua file)
+
+            lalu cek kembali di "git status" untuk cek jika semua file sudah staged 
+            lalu lakuka commit
+            - git commit -m "my first commit"
         */
     }
 }
